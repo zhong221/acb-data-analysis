@@ -4,6 +4,7 @@ click==6.7
 dash==0.42.0
 dash-core-components==0.46.0
 dash-html-components==0.15.0
+dash-table==3.6.0
 dash-renderer==0.12.1
 decorator==4.3.0
 Flask==1.0.2
