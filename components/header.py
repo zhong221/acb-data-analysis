@@ -17,7 +17,7 @@ def get_logo():
         ], className="ten columns padded"),
 
         html.Div([
-            dcc.Link('Full View   ', href='/dash-vanguard-report/full-view')
+            dcc.Link('Full View   ', href='/dash-siemens-report/full-view')
         ], className="two columns page-view no-print")
 
     ], className="row gs-header")
