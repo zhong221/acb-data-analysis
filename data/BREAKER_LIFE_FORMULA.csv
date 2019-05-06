@@ -1,0 +1,193 @@
+﻿FORMULA_NO,BREAKER_LIFE_TYPE_ID,LIFE_TIME,REMARK
+V=1000&T=E&M=O,L001,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L002,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L003,2000,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L004,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L005,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L006,2000,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L007,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L008,1000,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L009,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L010,1000,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L011,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,L012,1000,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,T001,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,T002,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,T003,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=O,T004,NA,Electrical w/o maintenance（不带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L001,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L002,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L003,15000,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L004,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L005,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L006,15000,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L007,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L008,15000,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L009,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L010,15000,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L011,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,L012,10000,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,T001,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,T002,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,T003,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1000&T=E&M=W,T004,NA,Electrical with maintenance（带维护电寿命） @ =1000V
+V=1150&T=E&M=O,L001,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L002,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L003,2000,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L004,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L005,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L006,2000,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L007,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L008,500,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L009,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L010,500,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L011,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,L012,1000,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,T001,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,T002,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,T003,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=O,T004,NA,Electrical w/o maintenance（不带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L001,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L002,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L003,15000,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L004,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L005,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L006,15000,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L007,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L008,15000,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L009,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L010,15000,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L011,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,L012,10000,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,T001,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,T002,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,T003,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=1150&T=E&M=W,T004,NA,Electrical with maintenance（带维护电寿命） @ =1150V
+V=440&T=E&M=O,L001,10000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L002,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L003,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L004,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L005,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L006,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L007,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L008,7500,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L009,4000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L010,4000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L011,2000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,L012,2000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,T001,6000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,T002,6000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,T003,4000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=O,T004,2000,Electrical w/o maintenance（不带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L001,20000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L002,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L003,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L004,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L005,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L006,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L007,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L008,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L009,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L010,15000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L011,10000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,L012,10000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,T001,12000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,T002,12000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,T003,10000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=440&T=E&M=W,T004,4000,Electrical with maintenance（带维护电寿命） @ ≤440V
+V=500&T=E&M=O,L001,10000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L002,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L003,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L004,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L005,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L006,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L007,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L008,7500,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L009,4000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L010,4000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L011,2000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,L012,2000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,T001,6000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,T002,6000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,T003,4000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=O,T004,2000,Electrical w/o maintenance（不带维护电寿命） @ =500V
+V=500&T=E&M=W,L001,20000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L002,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L003,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L004,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L005,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L006,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L007,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L008,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L009,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L010,15000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L011,10000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,L012,10000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,T001,12000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,T002,12000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,T003,10000,Electrical with maintenance（带维护电寿命） @ =500V
+V=500&T=E&M=W,T004,4000,Electrical with maintenance（带维护电寿命） @ =500V
+V=690&T=E&M=O,L001,10000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L002,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L003,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L004,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L005,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L006,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L007,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L008,7500,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L009,4000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L010,4000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L011,2000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,L012,2000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,T001,6000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,T002,6000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,T003,4000,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=O,T004,NA,Electrical w/o maintenance（不带维护电寿命） @ =690V
+V=690&T=E&M=W,L001,20000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L002,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L003,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L004,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L005,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L006,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L007,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L008,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L009,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L010,15000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L011,10000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,L012,10000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,T001,12000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,T002,12000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,T003,10000,Electrical with maintenance（带维护电寿命） @ =690V
+V=690&T=E&M=W,T004,NA,Electrical with maintenance（带维护电寿命） @ =690V
+V=NA&T=M&M=O,L001,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L002,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L003,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L004,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L005,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L006,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L007,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L008,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L009,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L010,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L011,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,L012,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,T001,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,T002,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,T003,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=O,T004,10000,Mech w/o maintenance（不带维护机械寿命）
+V=NA&T=M&M=W,L001,20000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L002,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L003,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L004,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L005,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L006,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L007,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L008,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L009,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L010,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L011,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,L012,15000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,T001,18000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,T002,12000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,T003,12000,Mech with maintenance （带维护机械寿命）
+V=NA&T=M&M=W,T004,12000,Mech with maintenance （带维护机械寿命）
