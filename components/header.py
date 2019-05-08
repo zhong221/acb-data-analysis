@@ -39,15 +39,15 @@ def get_header():
 def get_menu():
     menu = html.Div([
 
-        dcc.Link('关断器地理位置分布      ', href='/dash-siemens-report/acbdistribution', className="tab first"),
+        dcc.Link('断路器地理位置分布      ', href='/dash-siemens-report/acbdistribution', className="tab first"),
 
-        dcc.Link('关断器温升电流分析      ', href='/dash-siemens-report/Temperature_Inc', className="tab"),
+        dcc.Link('断路器温升电流分析      ', href='/dash-siemens-report/Temperature_Inc', className="tab"),
 
-        dcc.Link('关断器使用年限分析      ', href='/dash-siemens-report/Used_Year', className="tab"),
+        dcc.Link('断路器使用年限分析      ', href='/dash-siemens-report/Used_Year', className="tab"),
 
-        dcc.Link('关断器电寿命分布分析      ', href='/dash-siemens-report/loadornot', className="tab"),
+        dcc.Link('断路器电寿命分布分析      ', href='/dash-siemens-report/loadornot', className="tab"),
 
-        dcc.Link('关断器合分闸时间分析      ', href='/dash-siemens-report/Open_and_Closing_Time', className="tab")
+        dcc.Link('断路器合分闸时间分析      ', href='/dash-siemens-report/Open_and_Closing_Time', className="tab")
 
     ], className="row",style={'font-family': 'Times New Roman, Times, serif','display':'inline-block', 'font-weight': 'bold','margin-bottom':10})
     return menu
