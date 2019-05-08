@@ -118,7 +118,7 @@ loadornot = html.Div([  # page 1
             Header(),
             # Row 4
                  html.Div([
-                  html.H6('电寿命分布柱状图'),
+                  html.H6('断路器电寿命分布柱状图'),
                      ],className='gs-header',style={'background-color':'lightblue','margin-bottom':10}),
             html.Div([
                 html.Li("筛选条件为是否带负载，产品型号（各个产品系列以及所有产品），统计出与操作年数时间相对应的已操作次数。"),
