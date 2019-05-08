@@ -171,15 +171,15 @@ Temperature_Inc = html.Div([  # page 5
             # Row 2
             html.Div([
                  html.Div([
-                html.H6(['关断器实测最大电流和实测最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
+                html.H6(['断路器实测最大电流和实测最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
                  html.Div([
-                html.H6(['关断器预期最大电流和预期最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
+                html.H6(['断路器预期最大电流和预期最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
                 html.Div(id='datatable-interactivity-container3')
             ], className="row"),
             # Row 3
 
             html.Div([
-                html.H6(['关断器电流和温升数据'],
+                html.H6(['断路器电流和温升数据'],
                         className="gs-header",style={'background-color':'lightblue','margin-top':10}),
                 dash_table.DataTable(
                     id='datatable-interactivity3',
@@ -337,7 +337,7 @@ acbdistribution = html.Div([  # page 5
             # Row 1
             # Row 2
             html.Div([
-                html.H6(['关断器全国分布'],className="gs-header",style={'background-color':'lightblue','margin-bottom':10}),
+                html.H6(['断路器全国分布'],className="gs-header",style={'background-color':'lightblue','margin-bottom':10}),
                  html.Li("\
                 筛选条件为全国范围内的省、直辖市或者自治区。"),
             ], className='row'),
@@ -482,7 +482,7 @@ def update_graph(rows, derived_virtual_selected_rows):
                                       }
                                   },
                                   yaxis={
-                                      'title': "关断器数量",
+                                      'title': "断路器数量",
                                       'titlefont': {
                                           'color': 'black',
                                           'size': 12,
