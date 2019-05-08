@@ -389,10 +389,10 @@ app.layout = html.Div([
 @app.callback(dash.dependencies.Output('page-content', 'children'),
               [dash.dependencies.Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/dash-siemens-report' or pathname == '/dash-siemens-report/Used_Year':
-        return Used_Year
-    elif pathname == '/dash-siemens-report/acbdistribution':
+    if pathname == '/dash-siemens-report' or pathname == '/dash-siemens-report/acbdistribution':
         return acbdistribution
+    elif pathname == '/dash-siemens-report/Used_Year':
+        return Used_Year
     elif pathname == '/dash-siemens-report/Temperature_Inc':
         return Temperature_Inc
     elif pathname == '/dash-siemens-report/loadornot':
