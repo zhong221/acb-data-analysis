@@ -1,5 +1,4 @@
 # coding: utf-8
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -9,7 +8,6 @@ import numpy as np
 from components import Header, make_dash_table, print_button
 import dash_table
 import pandas as pd
-
 
 app = dash.Dash(__name__, instance_relative_config=True,csrf_protect=False)
 server = app.server
@@ -21,11 +19,9 @@ yeartable = pd.read_csv(lifepath)
 producttable = pd.read_csv(prodpath)
 #####used_year distribution
 df=pd.merge(yeartable,producttable,how='inner',left_on='id',right_on='life_data_id')
-mgr_options = df['type'].unique()
 df = df[['id_x', 'type','used_year', 'next_maintenance_date']]
 df.rename(columns={'id_x':'产品ID','type':'产品型号','used_year':'使用年限','next_maintenance_date':'下次维护日期'},inplace=True)
 df['使用年限']=np.round(df['使用年限'])
-mgr_options = df['产品型号'].unique()
 #df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv')
 df=df.dropna()
 #l=['I','II']
@@ -108,6 +104,19 @@ df5 = mergedtablegroup
 
 
 
+######trend variables
+currentpath = './data/health_data_1.csv'
+currenttable = pd.read_csv(currentpath)
+#####used_year distribution
+df3 = pd.merge(currenttable,producttable,how='inner',left_on='id',right_on='health_data1_id')
+#df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv')
+df3 = df3[['id_x','type', 'i1', 'i2', 't0','t1', 't2','tempu']]
+#l=['I','II']
+#df3['框架']=np.random.choice(l,size=len(df3.index))
+df3.rename(columns={'id_x':'产品ID','i1':'实测运行电流','i2':'预期最大电流','tempu':'柜外环境温度','t0':'柜内温度','t1':'断路器桩头温度','type':'产品型号'},inplace=True)
+df3=df3.dropna()
+
+
 
 
 ## Page layouts
@@ -118,7 +127,7 @@ loadornot = html.Div([  # page 1
             Header(),
             # Row 4
                  html.Div([
-                  html.H6('断路器电寿命分布柱状图'),
+                  html.H6('电寿命分布柱状图'),
                      ],className='gs-header',style={'background-color':'lightblue','margin-bottom':10}),
             html.Div([
                 html.Li("筛选条件为是否带负载，产品型号（各个产品系列以及所有产品），统计出与操作年数时间相对应的已操作次数。"),
@@ -171,15 +180,15 @@ Temperature_Inc = html.Div([  # page 5
             # Row 2
             html.Div([
                  html.Div([
-                html.H6(['断路器实测最大电流和实测最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
+                html.H6(['关断器实测最大电流和实测最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
                  html.Div([
-                html.H6(['断路器预期最大电流和预期最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
+                html.H6(['关断器预期最大电流和预期最大温升'], className="gs-header",style={'background-color':'lightblue','margin-bottom':10})],className="six columns"),
                 html.Div(id='datatable-interactivity-container3')
             ], className="row"),
             # Row 3
 
             html.Div([
-                html.H6(['断路器电流和温升数据'],
+                html.H6(['关断器电流和温升数据'],
                         className="gs-header",style={'background-color':'lightblue','margin-top':10}),
                 dash_table.DataTable(
                     id='datatable-interactivity3',
@@ -337,7 +346,7 @@ acbdistribution = html.Div([  # page 5
             # Row 1
             # Row 2
             html.Div([
-                html.H6(['断路器全国分布'],className="gs-header",style={'background-color':'lightblue','margin-bottom':10}),
+                html.H6(['关断器全国分布'],className="gs-header",style={'background-color':'lightblue','margin-bottom':10}),
                  html.Li("\
                 筛选条件为全国范围内的省、直辖市或者自治区。"),
             ], className='row'),
@@ -389,10 +398,10 @@ app.layout = html.Div([
 @app.callback(dash.dependencies.Output('page-content', 'children'),
               [dash.dependencies.Input('url', 'pathname')])
 def display_page(pathname):
-    if pathname == '/dash-siemens-report' or pathname == '/dash-siemens-report/acbdistribution':
-        return acbdistribution
-    elif pathname == '/dash-siemens-report/Used_Year':
+    if pathname == '/dash-siemens-report' or pathname == '/dash-siemens-report/Used_Year':
         return Used_Year
+    elif pathname == '/dash-siemens-report/acbdistribution':
+        return acbdistribution
     elif pathname == '/dash-siemens-report/Temperature_Inc':
         return Temperature_Inc
     elif pathname == '/dash-siemens-report/loadornot':
@@ -428,6 +437,7 @@ def update_graph(rows, derived_virtual_selected_rows):
         dff = df
     else:
         dff = pd.DataFrame(rows)
+    mgr_options = dff['产品型号'].unique()
     dff = pd.pivot_table(
             dff,
             index=["使用年限"],
@@ -435,12 +445,8 @@ def update_graph(rows, derived_virtual_selected_rows):
             values=['产品ID'],
             aggfunc='count',
             fill_value=0)
-    colors = []
-    for i in range(len(dff)):
-        if i in derived_virtual_selected_rows:
-            colors.append("#7FDBFF")
-        else:
-            colors.append("#0074D9")
+    addcolor=['hsl('+str(h)+',50%'+',50%)' for h in np.linspace(100, 250, N-2)]
+    colors = ['#56CAE0','#2C9A87']+addcolor
 
     return html.Div(
         [
@@ -448,7 +454,7 @@ def update_graph(rows, derived_virtual_selected_rows):
                 id='left-graph',
                 figure={
                     "data": [
-                go.Bar(x=dff.index, y=dff[('产品ID', mgr_options[i])], name='型号'+mgr_options[i])
+                go.Bar(x=dff.index, y=dff[('产品ID', mgr_options[i])], name='型号'+mgr_options[i],marker=dict(color=colors[i]))
                         for i in np.arange(0,len(mgr_options))
             # {
             #    "x": dff["country"],
@@ -482,7 +488,7 @@ def update_graph(rows, derived_virtual_selected_rows):
                                       }
                                   },
                                   yaxis={
-                                      'title': "断路器数量",
+                                      'title': "关断器数量",
                                       'titlefont': {
                                           'color': 'black',
                                           'size': 12,
@@ -551,7 +557,7 @@ def update_graph(rows, derived_virtual_selected_rows):
                 y=dff2[dff2['产品型号'] == dff2['产品型号'].unique()[i]]['分闸时间'],
                 name='产品型号:'+dff2['产品型号'].unique()[i],
                 marker=dict(
-                        color=c2[i],
+                        color='#2C9A87'
                            ),
                 boxmean=True
                 )  for i in np.arange(0,len(dff2['产品型号'].unique()))
@@ -604,7 +610,7 @@ def update_graph(rows, derived_virtual_selected_rows):
                 y=dff2[dff2['产品型号'] == dff2['产品型号'].unique()[i]]['合闸时间'],
                 name='产品型号:'+dff2['产品型号'].unique()[i],
                 marker=dict(
-                        color=c2[i],
+                        color='#2C9A87'
                            ),
                 boxmean=True
                 )  for i in np.arange(0,len(dff2['产品型号'].unique()))
@@ -903,8 +909,8 @@ def update_figure(selected1,selected2):
     dff=df5[(df5.with_load==selected1) & (df5.type==selected2)].sort_values(by='count_number')
     N = len(mergedtablegroup.count_number.unique())
     c4 = ['hsl(' + str(h) + ',50%' + ',50%)' for h in np.linspace(0, 300, N)]
-    trace = go.Bar(x=dff.opt_year, y=dff.count_number,
-                   name=(('带载操作:' if selected1==1 else '不带载操作:')+'<br>'+'产品型号:'+selected2))
+    trace = go.Bar(x=dff.opt_year, y=dff.count_number,marker=dict(color='#2C9A87'),
+        name=(('带载操作:' if selected1==1 else '不带载操作:')+'<br>'+'产品型号:'+selected2))
     return {
             "data": [trace],
             "layout": go.Layout(xaxis={
@@ -915,7 +921,6 @@ def update_figure(selected1,selected2):
                                       'tickfont': {
                                           'size': 12,
                                           'color': 'black'
-
                                       }
                                   },
                                   yaxis={
@@ -952,4 +957,5 @@ for js in external_js:
 
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=8080, debug=False)
+    app.run_server(debug=False)
+
